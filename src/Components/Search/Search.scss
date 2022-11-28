@@ -1,0 +1,54 @@
+.search {
+  position: absolute;
+  left: 35%;
+  top: 35px;
+  width: 100vw;
+
+  @media screen and (max-width: 768px) {
+    left: 0;
+  }
+
+  .rdrDateDisplayItem input {
+    display: none;
+  }
+
+  h2 {
+    align-items: center;
+    background-color: #fff;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    position: absolute;
+    top: 348px;
+    left: 0;
+    width: 559px;
+    z-index: 100;
+  }
+  input {
+    border: none;
+    height: 30px;
+    left: 0;
+    outline: none;
+    padding: 20px;
+    position: absolute;
+    top: 395px;
+    width: 539px;
+    z-index: 100;
+  }
+
+  .search__btn {
+    color: #fff;
+    background-color: #ff7779;
+    left: 0;
+    position: absolute;
+    top: 450px;
+    text-transform: inherit;
+    width: 579px;
+    z-index: 100;
+
+    &:hover {
+      background-color: #000;
+      color: #fff;
+    }
+  }
+}
