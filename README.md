@@ -1,4 +1,4 @@
-LINK: https://clone-airbnb-vkg4.vercel.app/
+LINK: https://properties-beige.vercel.app/
 
 # Getting Started with Create React App
 
